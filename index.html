@@ -2,22 +2,41 @@
 <!-- Plan jest taki, żeby zrobić 'About me" z boku po prawej,' -->
 <!-- na środku feed z artykułami z przepisami do 3 dań + fotki -->
 <!-- Ingredients podane jako lista + makro w tabelkach -->
-<!-- stylesheet jeden dla całego projektu -->
 <html>
     <head>
-      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meet Szympatka</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        Hey guys!
-        <br>
-        Here I will show you some recipes using which you can cook yoursevles dinner!
-        <br>
-        MENU:
-        <ol>
-          <li>Salad</li>
-          <li>Kotleto</li>
-          <li>Desero</li>
-        </ol>
+      <div class="container">
+        <div class="row">
+          <div class="col header">
+            <h1>Hey guys!</h1>
+            <h2>Let's cook :)</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h1>Feed</h1><br>
+            Here I will show you some recipes using which you can cook yoursevles dinner!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            Salad recipe.
+            <button type="button" class="btn btn-outline-primary">Read more</button>
+          </div>
+          <div class="col">
+            Burger recipe.
+            <button type="button" class="btn btn-outline-primary">Read more</button>
+          </div>
+          <div class="col">
+            Deser recipe.
+            <button type="button" class="btn btn-outline-primary">Read more</button>
+          </div>
+        </div>
+    </div>
     </body>
 </html>
