@@ -4,8 +4,9 @@
   background: #F1DEDE;
   color: white;
   font-size: 30px;
-  line-height: 0.5
+  line-height: 0.5;
 }
+
 .column {
   float: left;
   padding: 10px;
@@ -18,10 +19,4 @@
   background: #BBACC1;
 }
 
-.right {
-  width: 25%;
-  background: #80727B;
-}
-.image {
-  style="vertical-align:middle"
-}
+/*# sourceMappingURL=style.css.map */
