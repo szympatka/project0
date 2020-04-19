@@ -17,14 +17,6 @@
   }
 }
 
-.column {
-  float: left;
-  padding: 10px;
-  margin-top: 20px;
-  color: white;
-  font-size: 20px;
-}
-
 .head-box a {
   text-decoration: none;
   color: #FFFFFF;
@@ -32,6 +24,20 @@
 
 .btn {
   margin-bottom: 20px;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.img {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 /*# sourceMappingURL=style.css.map */
