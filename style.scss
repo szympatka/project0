@@ -12,6 +12,10 @@
       background: #BBACC1;
   }
 }
+p::first-letter {
+  font-style: italic;
+}
+
 .head-box a{
   text-decoration: none;
   color: #FFFFFF;
@@ -30,4 +34,7 @@
 }
 ul {
   list-style-position: inside;
+}
+#welcome {
+  font-weight: 400;
 }
