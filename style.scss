@@ -1,3 +1,6 @@
+$color-lg: #F1DEDE;
+$color-sm: #BBACC1;
+
 .header {
   padding: 60px;
   margin-bottom: 20px;
@@ -6,10 +9,10 @@
   font-size: 30px;
   line-height: 0.5;
   @media (min-width: 699px){
-      background: #F1DEDE;
+      background: $color-lg;
   }
   @media (max-width: 700px){
-      background: #BBACC1;
+      background: $color-sm;
   }
 }
 p::first-letter {
@@ -26,6 +29,11 @@ p::first-letter {
   position: absolute;
   right:    0;
   bottom:   0;
+}
+div {
+    p {
+    color:black;
+  }
 }
 .img {
   margin-bottom: 20px;
