@@ -17,6 +17,11 @@
   }
 }
 
+@media print {
+  .head-box, .btn {
+    display: none;
+  }
+}
 .header-burger {
   font-style: italic;
 }

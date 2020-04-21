@@ -15,6 +15,11 @@ $color-sm: #BBACC1;
       background: $color-sm;
   }
 }
+@media print{
+  .head-box, .btn {
+    display: none;
+  }
+}
 .header-burger {
   @extend .header;
   font-style: italic;
