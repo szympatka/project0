@@ -1,4 +1,4 @@
-.header {
+.header, .header-burger {
   padding: 60px;
   margin-bottom: 20px;
   text-align: center;
@@ -7,14 +7,18 @@
   line-height: 0.5;
 }
 @media (min-width: 699px) {
-  .header {
+  .header, .header-burger {
     background: #F1DEDE;
   }
 }
 @media (max-width: 700px) {
-  .header {
+  .header, .header-burger {
     background: #BBACC1;
   }
+}
+
+.header-burger {
+  font-style: italic;
 }
 
 p::first-letter {

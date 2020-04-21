@@ -15,6 +15,10 @@ $color-sm: #BBACC1;
       background: $color-sm;
   }
 }
+.header-burger {
+  @extend .header;
+  font-style: italic;
+}
 p::first-letter {
   font-style: italic;
 }
